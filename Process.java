@@ -1,7 +1,3 @@
-package so;
-
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
@@ -20,7 +16,7 @@ public class Process {
     // Construtor que inicializa um processo com o tamanho especificado na memória.
     public Process(int sizeInMemory) {
         this.id = UUID.randomUUID().toString(); // Gerar um ID único para o processo
-        Random r = new Random();
+        //Random r = new Random();
         // List<Integer> numbers = Arrays.asList(1,2,4,6,10,20,50,100); // Lista de números utilizada, mas não utilizada no código
         this.sizeInMemory = sizeInMemory; // Definir o tamanho do processo
     }
@@ -67,8 +63,6 @@ public class Process {
 //adress: O endereço de memória do processo, representado por AdressMemory (não utilizado neste código).
 //O construtor Process recebe o tamanho do processo na memória como parâmetro e inicializa o ID do processo e o tamanho na memória.
 //Métodos getters e setters são fornecidos para acessar e modificar os atributos do processo.
-
-
 
 
 
